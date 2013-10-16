@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Responder!</title>
+<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="filter.js"></script>
+</head>
+<body>
+<div class="container">
+<form onsubmit="go()">
+	
+<p>
+<label>***@</label>
+<input type="text" id="from" autofocus="true" placeholder="Set From-Domain here" />
+</p>
+
+<p>
+<input type="text" id="to" autofocus="true" placeholder="Set To-Email here" />
+</p>
+
+<p>
+<input type="text" id="subject" autofocus="true" placeholder="Set subject here" />
+</p>
+
+<p>
+<input type="text" id="hasw" autofocus="true" placeholder="Set has-words here" />
+</p>
+
+<p>
+<input type="text" id="hasnotw" autofocus="true" placeholder="Set has-not-words here" />
+</p>
+
+<p>
+<input type="text" id="rsptext" autofocus="true" placeholder="Set your response here" />
+</p>
+
+<input type="Submit" value="DONE"/>
+<input type="Button" value="Clear All Filters" onclick="clearF()"/>
+</form>
+</div>
+</body>
+</html>
